@@ -1,0 +1,194 @@
+import React from 'react';
+import './Form.css';
+
+
+function Form(){
+    return(
+        <div className="container Form__name_container">
+        <div className="row">
+            <div className="col-sm-2 hidden-xs"><span className="Form__dot"></span></div>
+            <div className="col-sm-10 Form__mainheading"><div className="Form__heading">NIMA Mutual Benefits Scheme Application Form</div>
+            <div className="Form__subheading">Claim form for Fraternity Contribution</div>
+            <div className="Form__address">4140 Parker Rd. Allentown, New Mexico 31134</div></div>
+        </div>
+        
+        
+        
+            <form>
+                    {/*First Group*/}
+                    <div className="Form__dmrow">Deceased Member Details</div>
+                    {/*First row of first group*/}
+                    <div className="form-row Form__dm">
+                       <div className="col-sm-2 col-xs-12">
+                           <input type="text" className="form-control" name="fname" id="fname" placeholder=" " required/>
+                           <span>First Name</span>
+                        </div>
+                        <div className="col-sm-2 col-xs-12">
+                            <input type="text" className="form-control" name="mname" id="mname" placeholder=" " required />
+                            <span>Middle Name</span>
+                        </div>
+                        <div className="col-sm-2 col-xs-12">
+                            <input type="text" className="form-control" name="lname" id="lname" placeholder=" " required />
+                            <span>Last Name</span>
+                        </div>
+                        <div className="col-sm-2 col-xs-12">
+                            <select className="form-control" id="M.B.S.Reg.Number">
+                                <option value="" disabled selected hidden>M.B.S.Reg.Number</option>
+                                <option value="0-10" >0-10</option>
+                                <option value="11-20">11-20</option>
+                                <option value="21-30">21-30</option>
+                                <option value="31-40">31-40</option>
+                                <option value="41-50">41-50</option>
+                                <option value="51-60">51-60</option>
+                                <option value="61-70">61-70</option>
+                           </select>
+                        </div>
+                        <div className="col-sm-2 col-xs-12">
+                            <input type="date" className="form-control" placeholder=" " required />
+                            <span>Date of Joining Scheme</span>
+                        </div>
+                        <div className="col-sm-2 col-xs-12">
+                            <select className="form-control" id="NIMA Local Branch">
+                            <option value="" disabled selected hidden>NIMA Local Branch</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Bangalore">Bangalore</option>
+                            <option value="Kolhapur">Kolhapur</option>
+                            <option value="Surat">Surat</option>
+                            <option value="Pune">Pune</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    {/*Second row Of first group*/}
+                    <div className="form-row Form__dm">
+                        <div className="col-sm-2 col-xs-12">
+                            <select className="form-control" id="State">
+                            <option value="" disabled selected hidden>State</option>
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="Gujarat">Gujarat</option>
+                            <option value="Rajasthan">Rajasthan</option>
+                            <option value="Uttar Pradesh">Uttar Pradesh</option>
+                            <option value="Goa">Goa</option>
+                            </select>
+                        </div>
+                        <div className="col-sm-2 col-xs-12">
+                            <input type="tel" className="form-control" placeholder=" " required/>
+                            <span>L.M. Number</span>
+                        </div>
+                    </div>
+
+                    {/*Second Group*/}
+                    <div className="Form__dmrow">Nominee Details</div>
+                    
+                    {/*First row of Second Group*/}
+                    <div className="form-row Form__dm">
+                        <div className="col-sm-2 col-xs-12">
+                            <input type="text" className="form-control" placeholder=" " required />
+                            <span>First Name</span>
+                        </div>
+                        <div className="col-sm-2 col-xs-12">
+                            <input type="text" className="form-control" placeholder=" " required/>
+                            <span>Middle Name</span>
+                        </div>
+                        <div className="col-sm-2 col-xs-12">
+                            <input type="text" className="form-control" placeholder=" " required />
+                            <span>Last Name</span>
+                        </div>
+                        <div className="col-sm-2 col-xs-12">
+                            <input type="text" className="form-control" placeholder=" " required />
+                            <span>Relation With Deceased</span>
+                        </div>
+                        <div className="col-sm-2 col-xs-12">
+                            <input type="tel" className="form-control" placeholder=" " required />
+                            <span>Mobile Number</span>
+                        </div>
+                        <div className="col-sm-2 col-xs-12">
+                            <input type="tel" className="form-control" placeholder=" " required/>
+                            <span>Alternate Number</span>
+                        </div>
+                    </div>
+
+                    <div className="form-row Form__dm">
+                        <div className="col-sm-10 col-xs-12">
+                            <textarea className="form-control address" aria-label="With textarea" placeholder=" "></textarea>
+                            <span>Address</span>
+                        </div>
+                        <div className="col-sm-2 col-xs-12">
+                        <label for="pincode" className="Form__pincode">PIN code:</label>
+                        <input type="text" className="form-control" />
+                        </div>
+                    </div>
+
+                    {/*Third Group*/}
+                    <div className="Form__dmrow">Claimant Details</div>
+                    
+                    {/*First row of Third Group*/}
+                    <div className="form-row Form__dm">
+                        <div className="col-sm-2 col-xs-12">
+                            <input type="text" className="form-control" placeholder=" " required/>
+                            <span>First Name</span>
+                        </div>
+                        <div className="col-sm-2 col-xs-12">
+                            <input type="text" className="form-control" placeholder=" " required/>
+                            <span>Middle Name</span>
+                        </div>
+                        <div className="col-sm-2 col-xs-12">
+                            <input type="text" className="form-control" placeholder=" " required />
+                            <span>Last Name</span>
+                        </div>
+                        <div className="col-sm-2 col-xs-12">
+                            <input type="text" className="form-control" placeholder=" " required/>
+                            <span>Relation With Deceased</span>
+                        </div>
+                        <div className="col-sm-2 col-xs-12">
+                            <input type="tel" className="form-control" placeholder=" " required/>
+                            <span>Mobile Number</span>
+                        </div>
+                        <div className="col-sm-2 col-xs-12">
+                            <input type="tel" className="form-control" placeholder=" " required/>
+                            <span>Alternate Number</span>
+                        </div>
+                    </div>
+
+                    {/*Second row of Third Group*/}
+                    <div className="form-row Form__dm">
+                        <div className="col-sm-10 col-xs-12">
+                        <textarea className="form-control address" aria-label="With textarea" placeholder=" "></textarea>
+                            <span>Address</span>
+                        </div>
+                        <div className="col-sm-2 col-xs-12">
+                        <label for="pincode" className="Form__pincode">PIN code:</label>
+                        <input type="text" className="form-control" />
+                        </div>
+                    </div>
+
+                    {/*Third row of Third Group*/}
+                    <div className="form-row Form__dm">
+                    <div className="col-sm-2 col-xs-12">
+                            <select className="form-control" id="Town/District">
+                            <option value="" disabled selected hidden>Town/District</option>
+                            <option value="Chennai">Chennai</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Kolkata">Kolkata</option>
+                            <option value="Ahemdabad">Ahemdabad</option>
+                            <option value="Jaipur">Jaipur</option>
+                            <option value="Bhopal">Bhopal</option>
+                            <option value="Chandigarh">Chandigarh</option>
+                            </select>
+                        </div>
+                        <div className="col-sm-2 col-xs-12">
+                            <input type="text" className="form-control" placeholder=" " required/>
+                            <span>State</span>
+                        </div>
+                    </div>
+                    <div className="Form__form-submit">
+                        <button className="btn Form__view-button">View form</button>
+                        <button type="submit" className="btn btn-success Form__success-button">Submit Form</button>
+                    </div>
+
+                </form>
+        </div>
+    );
+}
+export default Form;
