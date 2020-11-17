@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/deploy-nima-form/static/css/main.1a9f73cc.chunk.css",
+    "main.js": "/deploy-nima-form/static/js/main.52190cae.chunk.js",
+    "main.js.map": "/deploy-nima-form/static/js/main.52190cae.chunk.js.map",
+    "runtime-main.js": "/deploy-nima-form/static/js/runtime-main.127e38bd.js",
+    "runtime-main.js.map": "/deploy-nima-form/static/js/runtime-main.127e38bd.js.map",
+    "static/js/2.9da95ee6.chunk.js": "/deploy-nima-form/static/js/2.9da95ee6.chunk.js",
+    "static/js/2.9da95ee6.chunk.js.map": "/deploy-nima-form/static/js/2.9da95ee6.chunk.js.map",
+    "index.html": "/deploy-nima-form/index.html",
+    "static/css/main.1a9f73cc.chunk.css.map": "/deploy-nima-form/static/css/main.1a9f73cc.chunk.css.map",
+    "static/js/2.9da95ee6.chunk.js.LICENSE.txt": "/deploy-nima-form/static/js/2.9da95ee6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.127e38bd.js",
+    "static/js/2.9da95ee6.chunk.js",
+    "static/css/main.1a9f73cc.chunk.css",
+    "static/js/main.52190cae.chunk.js"
+  ]
+}
