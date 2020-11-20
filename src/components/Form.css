@@ -1,8 +1,8 @@
 /*HEADER SECTION*/
 .Form__name_container{
     max-width: 100%;
-    padding-left: 85px;
-    padding-right: 85px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .Form__dot{
     height: 161px;
@@ -94,7 +94,7 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
     font-weight: 600;
     color:#390969;
     margin-bottom:35px;
-    margin-left: 84px;
+    margin-left: 84px !important;
 }
 .Form__dm{
     margin-top: 2rem;
