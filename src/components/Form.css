@@ -180,12 +180,12 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
         font-size:20px;
         font-weight: 600;
         color:#390969;
-        margin-left: 5px;
+        margin-left: 5px !important;
         margin-bottom: 5px !important;
     }
     .Form__dm{
         width:345px;
-        margin-left:0px; 
+        margin-left:5px !important; 
         margin-bottom: 25px;
         margin-right:10px;
     }
