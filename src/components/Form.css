@@ -130,6 +130,7 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
 }
 /*BODY SECTION ENDS HERE*/
 
+
 /*For small devices*/
 @media screen and (max-width: 576px){
     /*Header section starts here*/
@@ -278,86 +279,89 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
 @media(min-width:576px) and (max-width: 800px){
     /*Header section starts here*/
     .Form__name_container{
-        max-width: 100%;
-        padding-left:0rem;
-        padding-right:2rem; 
+        
+        padding-left:30px !important;
+        padding-right:30px !important;
     }
     .Form__dot{
-        height: 151px;
-        width: 151px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        margin-top: 63px;
-        margin-left: 30%;
+        height: 151px !important;
+        width: 151px !important;
+        background-color: #bbb !important;
+        border-radius: 50% !important;
+        display: inline-block !important;
+        margin-top: 63px !important;
+        margin-left: 20% !important;
     }
     .Form__mainheading{
         text-align: center;
         margin-bottom: 41px;
-        margin-left: 9rem;
-        margin-left: 0rem !important;
+        margin-left: 8rem !important;
+       
      }
     .Form__heading{
-        font-size: 35px;
+        font-size: 35px !important;
         margin-bottom:10px;
-        font-weight: 300;
-        line-height: 40px;
+        font-weight: 400;
+        line-height: 35px;
+        color: #000000;
     }
     .Form__subheading{
-        font-size: 30px;
+        font-size: 28px;
         font-weight: 400;
         margin-bottom:10px;
+        color: #000000;
     }
     .Form__address{
-        font-size:28px;
+        font-size:23px;
         font-weight: 600;
+        color:#000000;
     }
     /*Header section ends here*/
 
     /*Body section starts */
     .Form__dmrow{
-        font-size:22px;
-        font-weight: 600;
-        color:#390969;
-        margin-left: 2rem;
+        font-size:22px !important;
+        font-weight: 600 !important;
+        color:#390969 !important;
+        margin-left: 0.5rem !important;
         margin-bottom: 5px !important;
     }
     .Form__dm{
-        width:720px;
-        margin-left:2rem; 
-        margin-bottom: 25px;
-        margin-right:10px;
+        width:720px !important;
+        margin-left:0rem !important; 
+        margin-bottom: 25px !important;
+        margin-right:10px !important;
     }
     .form-control{
-        display: block;
-        width: 100%;
-        padding: 15px 0px 15px 5px;
-        font-size: 1rem;
-        line-height: 1.5;
-        color: #495057;
+        display: block !important;
+        width: 100% !important;
+        padding:5px 0px 8px 5px !important;
+        font-size: 12px !important;
+        line-height: 1.5 !important;
+        color: #495057 !important;
         background-color: #fff;
-        background-clip: padding-box;
+        background-clip: padding-box !important;
         border: 1px solid #ced4da;
         border-radius: .25rem;
         transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-        margin-bottom: 15px;
+        margin-bottom: 0px;
     }
     select.form-control:not([size]):not([multiple]){
-        height: calc(2.25rem + 7px);
-        padding: 5px 0px 5px 1px;
-        font-size: 12px;
-        color: #390969;
+        height: calc(2.25rem + 7px) !important;
+        padding: 5px 0px 5px 1px !important;
+        font-size: 12px !important;
+        color: #390969 !important;
     }
     span{
         padding: .375rem 1rem;
         pointer-events: none;
         position: absolute;
-        font-size: 16px;
-        padding-left:12px;
-        padding-top:18px;
-        padding-bottom:10px;
+        font-size: 12px;
+        padding-left:12px !important;
+        padding-top:5px !important;
+        padding-bottom:0px !important;
         padding-right:0px;
-        line-height:1;
+        line-height:0.8;
         color: #390969;
         left:0;
         top:0;
@@ -387,24 +391,24 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
           margin-bottom: 2rem;
       }
       .Form__view-button{
-        margin-right:30px;
-        margin-left:15rem;
-         border-radius: 21px;
-         width:101px;
-         height:31px;
-         padding-top: 1px;
+        margin-right:30px !important;
+        margin-left:15rem !important;
+         border-radius: 21px !important;
+         width:101px !important;
+         height:31px !important;
+         padding-top: 1px !important;
      }
      .Form__success-button{
-         border-radius:21px;
-         width:116px;
-         height:31px;
-         padding-top: 1px;
+         border-radius:21px !important;
+         width:116px !important;
+         height:31px !important;
+         padding-top: 1px !important;
      }
       .Form__pincode{
-        font-size: 14px;
-        line-height: 10px;
-        font-weight: 300;
-        color: #390969;
+        font-size: 15px !important;
+        line-height: 5px !important;
+        font-weight: 300 !important;
+        color: #390969 !important;
     }
     /*Body section ends here*/
    
@@ -414,93 +418,92 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
 @media(min-width:800px) and (max-width: 1200px){
     /*Header section*/
     .Form__name_container{
-        max-width: 100%;
-        padding-left:0rem;
-        padding-right:2rem; 
+        padding-left:50px !important;
+        padding-right:50px !important;
     }
     .Form__dot{
-        height: 161px;
-        width: 161px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        margin-top: 63px;
-        margin-left: 30%;
+        height: 161px !important;
+        width: 161px !important;
+        background-color: #bbb !important;
+        border-radius: 50% !important;
+        display: inline-block !important;
+        margin-top: 63px !important;
+        margin-left: 20% !important;
     }
     .Form__mainheading{
-        text-align: center;
-        margin-bottom: 71px;
-        margin-left: 12rem;
+        text-align: center !important;
+        margin-bottom: 71px !important;
+        margin-left: 12rem !important;
         margin-left: 0rem !important;
      }
     .Form__heading{
-        font-size: 40px;
-        margin-bottom:15px;
-        font-weight: 300;
-        line-height: 40px;
+        font-size: 40px !important;
+        margin-bottom:15px !important;
+        font-weight: 300 !important;
+        line-height: 40px !important;
     }
     .Form__subheading{
-        font-size: 35px;
-        font-weight: 400;
-        margin-bottom:15px;
+        font-size: 35px !important;
+        font-weight: 400 !important;
+        margin-bottom:15px  !important;
     }
     .Form__address{
-        font-size:30px;
-        font-weight: 600;
+        font-size:30px !important;
+        font-weight: 600 !important;
     }
     /*Header section ends here*/
 
     /*Body section*/
     .Form__dmrow{
-        font-size:30px;
-        font-weight: 600;
-        color:#390969;
-        margin-left: 3.5rem;
+        font-size:30px !important;
+        font-weight: 600 !important;
+        color:#390969 !important;
+        margin-left:0.5rem !important;
         margin-bottom: 5px !important;
     }
     .Form__dm{
-        width:950px;
-        margin-left:4rem; 
-        margin-bottom: 25px;
-        margin-right:10px;
+        width:950px !important;
+        margin-left:0rem !important; 
+        margin-bottom: 25px !important;
+        margin-right:10px !important;
     }
     .form-control{
-        display: block;
-        width: 100%;
-        padding: 10px 0px 10px 5px;
-        font-size: 1rem;
-        line-height: 1.8;
-        color: #495057;
-        background-color: #fff;
-        background-clip: padding-box;
-        border: 1px solid #ced4da;
-        border-radius: .25rem;
+        display: block !important;
+        /* width: 100%; */
+        padding: 10px 0px 10px 5px !important;
+        font-size: 15px !important;
+        line-height: 1.8 !important;
+        color: #495057 !important;
+        background-color: #fff !important;
+        background-clip: padding-box !important;
+        border: 1px solid #ced4da !important;
+        border-radius: .25rem !important;
         transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-        margin-bottom: 15px;
+        margin-bottom: 15px !important;
     }
     select.form-control:not([size]):not([multiple]){
-        height: calc(2.25rem + 7px);
-        padding: 3px 0px 5px 1px;
-        font-size: 14px;
-        color: #390969;
+        height: calc(2.25rem + 7px) !important;
+        padding: 3px 0px 5px 1px !important;
+        font-size: 14px !important;
+        color: #390969 !important;
     }
     span{
-        padding: .375rem 1rem;
-        pointer-events: none;
-        position: absolute;
-        font-size: 18px;
-        padding-left:12px;
-        padding-top:18px;
-        padding-bottom:10px;
-        padding-right:0px;
-        line-height:1;
-        color: #390969;
-        left:0;
-        top:0;
-        transition: 0.2s;
-        transition-timing-function: ease;
-        transition-timing-function:cubic-bezier(0.25,0.1,0.25,1);
-        opacity:0.8;
+        padding: .375rem 1rem !important;
+        pointer-events: none !important;
+        position: absolute !important;
+        font-size: 18px !important;
+        padding-left:12px !important;
+        padding-top:18px !important;
+        padding-bottom:10px !important;
+        padding-right:0px !important;
+        line-height:1 !important;
+        color: #390969 !important;
+        left:0 !important;
+        top:0 !important;
+        transition: 0.2s !important;
+        transition-timing-function: ease !important;
+        transition-timing-function:cubic-bezier(0.25,0.1,0.25,1) !important;
+        opacity:0.8 !important;
     }
     input:focus + span, input:not(:placeholder-shown) + span {
         opacity:1;
@@ -523,24 +526,24 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
           margin-bottom: 2rem;
       }
       .Form__view-button{
-        margin-right:30px;
-        margin-left:25rem;
-         border-radius: 21px;
-         width:101px;
-         height:31px;
-         padding-top: 1px;
+        margin-right:30px !important;
+        margin-left:20rem !important;
+         border-radius: 21px !important;
+         width:101px !important;
+         height:31px !important;
+         padding-top: 1px !important;
      }
      .Form__success-button{
-         border-radius:21px;
-         width:116px;
-         height:31px;
-         padding-top: 1px;
+         border-radius:21px !important;
+         width:116px !important;
+         height:31px !important;
+         padding-top: 1px !important;
      }
       .Form__pincode{
-        font-size: 14px;
-        line-height: 10px;
-        font-weight: 300;
-        color: #390969;
+        font-size: 14px !important;
+        line-height: 10px !important;
+        font-weight: 300 !important;
+        color: #390969 !important;
     }
     /*Body section ends here*/
 }
