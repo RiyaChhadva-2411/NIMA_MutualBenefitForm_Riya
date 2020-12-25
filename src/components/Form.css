@@ -92,21 +92,21 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
   }
 .Form__dmrow{
 
-    font-size: 25px;
-    font-weight: 600;
-    color:#390969;
-    margin-bottom:35px;
+    font-size: 25px !important;
+    font-weight: 600 !important;
+    color:#390969 !important;
+    margin-bottom:35px !important;
     margin-left: 0px !important;
 }
 .Form__dm{
-    margin-top: 2rem;
-     margin-left:84px; 
-    margin-bottom: 51px;
+    margin-top: 2rem !important ;
+     margin-left:0px !important; 
+    margin-bottom: 51px !important; 
 }
 .Form__form-submit{
-    margin-top: 90px;
-    padding-left: 36rem;
-    margin-bottom: 5rem;
+    margin-top: 90px !important;
+    padding-left: 36rem !important;
+    margin-bottom: 5rem !important;
 
 }
 .Form__view-button{
