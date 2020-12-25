@@ -78,7 +78,7 @@ class Form extends React.Component{
     }
     render(){
         return(
-            <div className="container Form__name_container">
+            <div className="container-fluid Form__name_container">
             <div className="row">
                 <div className="col-sm-2 hidden-xs"><span className="Form__dot"></span></div>
                 <div className="col-sm-10 Form__mainheading"><div className="Form__heading">NIMA Mutual Benefits Scheme Application Form</div>

@@ -1,8 +1,8 @@
 /*HEADER SECTION*/
 .Form__name_container{
-    max-width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
+   
+    padding-left: 85px !important;
+    padding-right: 85px !important;
 }
 .Form__dot{
     height: 161px;
@@ -11,14 +11,16 @@
     border-radius: 50%;
     display: inline-block;
     margin-top: 63px;
-    margin-left:84px;
+    margin-left:0px !important;
     margin-right:51px;
     margin-bottom:28px;
 }
 .Form__mainheading{
-   text-align: center;
+    text-align: center; 
    margin-top: 63px;
    margin-bottom: 31px;
+   color:#000000;
+   margin-left: 10rem !important;
 }
 .Form__heading{
     font-size: 50px;
@@ -89,12 +91,12 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
     padding: .175rem 0.5rem;
   }
 .Form__dmrow{
-    /* margin-left:-60px; */
+
     font-size: 25px;
     font-weight: 600;
     color:#390969;
     margin-bottom:35px;
-    margin-left: 84px !important;
+    margin-left: 0px !important;
 }
 .Form__dm{
     margin-top: 2rem;
@@ -108,23 +110,23 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
 
 }
 .Form__view-button{
-   margin-right:10px;
-    margin-left: 84px;
-    border-radius: 21px;
-    width:101px;
-    height:31px;
-    padding-top: 1px;
+   margin-right:20px !important;
+    margin-left: 84px !important;
+    border-radius: 21px !important;
+    width:101px !important;
+    height:31px  !important;
+    padding-top: 1.2px !important;
 }
 .Form__success-button{
-    border-radius:21px;
-    width:116px;
-    height:31px;
-    padding-top: 1px;
+    border-radius:21px !important;
+    width:116px !important;
+    height:31px !important;
+    padding-top: 1.2px !important;
 }
 .Form__pincode{
-    font-size: 14px;
-    line-height: 17px;
-    font-weight: 300;
+    font-size: 14px !important;
+    line-height: 17px !important;
+    font-weight: 300 !important;
 }
 /*BODY SECTION ENDS HERE*/
 
@@ -132,26 +134,27 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
 @media screen and (max-width: 576px){
     /*Header section starts here*/
     .Form__dot{
-        height: 161px;
-        width: 161px;
+        height: 161px !important;
+        width: 161px !important;
         background-color: #bbb;
         border-radius: 50%;
-        display: inline-block;
-        margin-top: 63px;
-        margin-left: 25%;
+        display: inline-block !important;
+        margin-top: 63px !important;
+        margin-left: 25%!important;
     }
     .Form__mainheading{
        text-align: center;
-       margin-top: 15rem;
-       margin-bottom: 31px;
+       margin-top: 15rem ;
+       margin-bottom: 31px ;
+       margin-left: 0rem !important;
     }
     .Form__heading{
-        font-size: 28px;
-        display: block;
-        margin-bottom:15px;
-        font-weight: 400;
-        line-height: 30px;
-        color:#000000;
+        font-size: 28px !important;
+        display: block !important;
+        margin-bottom:15px !important;
+        font-weight: 400 !important;
+        line-height: 30px !important;
+        color:#000000 !important;
     }
     .Form__subheading{
         font-size: 25px;
@@ -169,9 +172,9 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
         color:#000000;
     }
     .Form__name_container{
-        max-width: 100%;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        
+        padding-left:20px !important;
+        padding-right:20px !important;
     }
     /*Header section ends here*/
 
@@ -180,14 +183,14 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
         font-size:20px;
         font-weight: 600;
         color:#390969;
-        margin-left: 5px !important;
-        margin-bottom: 5px !important;
+        margin-left:10px !important;
+        margin-bottom: 0px !important;
     }
     .Form__dm{
         width:345px;
-        margin-left:5px !important; 
+        margin-left:0px !important; 
         margin-bottom: 25px;
-        margin-right:10px;
+        margin-right:10px !important;
     }
     .form-control{
         display: block;
@@ -248,24 +251,24 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
           margin-bottom: 2rem;
       }
       .Form__view-button{
-        margin-right:30px;
-         margin-left: 34px;
-         border-radius: 21px;
-         width:101px;
-         height:31px;
-         padding-top: 1px;
+        margin-right:30px !important;
+         margin-left: 34px !important;
+         border-radius: 21px !important;
+         width:101px !important;
+         height:31px !important;
+         padding-top: 1px !important;
      }
      .Form__success-button{
-         border-radius:21px;
-         width:116px;
-         height:31px;
-         padding-top: 1px;
+         border-radius:21px !important;
+         width:116px !important;
+         height:31px !important;
+         padding-top: 1px !important;
      }
      .Form__pincode{
-         font-size: 14px;
-         line-height: 17px;
-         font-weight: 300;
-         color: #390969;
+         font-size: 14px !important;
+         line-height: 17px !important;
+         font-weight: 300 !important;
+         color: #390969 !important;
      }
      /*Body section ends here*/
     
@@ -292,6 +295,7 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
         text-align: center;
         margin-bottom: 41px;
         margin-left: 9rem;
+        margin-left: 0rem !important;
      }
     .Form__heading{
         font-size: 35px;
@@ -427,6 +431,7 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
         text-align: center;
         margin-bottom: 71px;
         margin-left: 12rem;
+        margin-left: 0rem !important;
      }
     .Form__heading{
         font-size: 40px;
