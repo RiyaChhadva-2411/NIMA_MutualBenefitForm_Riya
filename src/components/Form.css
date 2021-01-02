@@ -232,12 +232,12 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
     font-weight: 600 ;
     color:#390969 ;
     margin-bottom:0px ;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .Form__dm{
     margin-top: 5px ;
     margin-bottom: 51px ; 
-    margin-left: 15px !important;
+    margin-left: 5px !important;
 }
 .Form__form-submit{
     margin-top: 90px;
