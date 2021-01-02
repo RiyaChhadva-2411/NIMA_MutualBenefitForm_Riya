@@ -80,8 +80,9 @@ class Form extends React.Component{
         return(
             <div className="container-fluid Form__name_container">
             <div className="row">
-                <div className="col-sm-2 hidden-xs"><span className="Form__dot"></span></div>
-                <div className="col-sm-10 Form__mainheading"><div className="Form__heading">NIMA Mutual Benefits Scheme Application Form</div>
+                <div className="col-sm-2 col-xs-12"><div className="Form__dot"></div></div>
+                <div className="col-sm-10 col-xs-12 Form__mainheading">
+                <div className="Form__heading">NIMA Mutual Benefits Scheme Application Form</div>
                 <div className="Form__subheading">Claim form for Fraternity Contribution</div>
                 <div className="Form__address">4140 Parker Rd. Allentown, New Mexico 31134</div></div>
             </div>
@@ -257,8 +258,8 @@ class Form extends React.Component{
                             </div>
                         </div>
                         <div className="Form__form-submit">
-                            <button className="btn Form__view-button">View form</button>
-                            <button type="submit" className="btn btn-success Form__success-button">Submit Form</button>
+                            <button className="btn Form__ViewButton">View form</button>
+                            <button type="submit" className="btn btn-success Form__SubmitButton">Submit Form</button>
                         </div>
     
                     </form>
