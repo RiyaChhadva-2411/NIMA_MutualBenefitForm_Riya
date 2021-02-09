@@ -11,5 +11,5 @@ export const sendNimaClaimForm = async(data)=>{
     .catch((err)=>{
        console.log(err);
        return null;
-    })
+    });
 }

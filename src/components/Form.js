@@ -114,7 +114,19 @@ class Form extends React.Component{
     data["claimantState"]=formData.get("claimantState") || this.state.claimantState;
 
     console.log(data);
-    sendNimaClaimForm(data);
+    sendNimaClaimForm(data)
+    .then((response) => {
+        console.log(response.data);
+        if (response.data.status === "success") {
+          alert("Success " + response.data.message);
+          window.location.reload();
+        }
+      })
+      .catch((err) => {
+        alert(err);
+        console.log(err);
+      });
+
     }
     render(){
         return(
