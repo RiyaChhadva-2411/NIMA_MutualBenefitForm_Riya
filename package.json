@@ -2,11 +2,12 @@
   "name": "form_hosted",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://RiyaChhadva-2411.github.io/deploy-nima-form",
+  "homepage": "http://RiyaChhadva-2411.github.io/deploy-nima-form",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.1.2",
     "@testing-library/user-event": "^12.2.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -18,8 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
