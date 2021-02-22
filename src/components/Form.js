@@ -315,6 +315,7 @@ class Form extends React.Component{
                         </div>
     
                     </form>
+                    <div className="Form__upcloud__footer">Powered by Upcloud Technology Pvt. Ltd.</div>
             </div>
         );
     }

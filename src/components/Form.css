@@ -104,7 +104,7 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
     margin-top: 90px ;
     display: flex;
     justify-content: center;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 
 }
 .Form__ViewButton{
@@ -128,7 +128,16 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
     color: #000000;
 }
 /*BODY SECTION ENDS HERE*/
-
+.Form__upcloud__footer{
+    display: flex;
+    justify-content:flex-start;
+    color: gray;
+    font-weight: 600;
+    font-size: 18px;
+    padding:20px 20px 0px 20px;
+    margin-left: 0%;
+    margin-bottom: 50px;
+}
 
 /*For small devices*/
 @media screen and (max-width: 576px){
@@ -155,6 +164,9 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
    margin-bottom: 31px;
    color:#000000;
    margin-left: 0px;
+}
+.Form__upcloud__footer{
+    font-size: 14px;
 }
 .Form__heading{
     font-size: 26px;
@@ -241,7 +253,7 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
 }
 .Form__form-submit{
     margin-top: 90px;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
     display: flex;
     justify-content: center;
 
@@ -383,7 +395,7 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
           margin-top:50px;
          display: flex;
          justify-content: center;
-          margin-bottom: 2rem;
+          margin-bottom: 1rem;
       }
       .Form__view-button{
         margin-right:30px;
@@ -522,7 +534,7 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
           margin-top:50px;
          display: flex;
          justify-content: center;
-          margin-bottom: 2rem;
+          margin-bottom: 1rem;
       }
       .Form__view-button{
         margin-right:30px;
